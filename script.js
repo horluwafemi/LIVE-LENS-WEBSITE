@@ -5,8 +5,9 @@ document.querySelectorAll("a.book").forEach(function(a){a.href=FORM_URL;});
 // ---- CLIENT REVIEWS ----
 // To add a review, copy one line inside REVIEWS, fill it in, and redeploy.
 // Example: { name: "Client name", event: "Wedding", rating: 5, text: "What the client said." },
-var REVIEWS = [ {name: "Daniel & Wife.", event: "Wedding", rating: 5, text: I highly recommend LIVE LENS to individuals, organisations, and businesses looking for reliable, creative, and professional media coverage."}
-{ name: "Grace Community Church", event: "Church service", rating: 5, text: "Our live stream ran smoothly from start to finish." },];
+var REVIEWS = [ {name: "Daniel & Wife.", event: "Wedding", rating: 5, text: I highly recommend LIVE LENS to individuals, organisations, and businesses looking for reliable, creative, and professional media coverage."}, 
+{ name: "Grace Community Church", event: "Church service", rating: 5, text: "Our live stream ran smoothly from start to finish." },
+  ];
 
 // Link to a Google Form (or any page) where clients can submit reviews.
 // Leave empty to let clients email their review instead.
