@@ -11,7 +11,7 @@ var REVIEWS = [ {name: "Daniel & Wife.", event: "Wedding", rating: 5, text: I hi
 
 // Link to a Google Form (or any page) where clients can submit reviews.
 // Leave empty to let clients email their review instead.
-var REVIEW_FORM_URL = "";
+var REVIEW_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSc3pTaTn1z4ojJQWaFriO1iw4z8a3EAFUXCkdNnrcIrQNuMnA/viewform?usp=header";
 
 (function(){
   var list = document.getElementById("review-list");
