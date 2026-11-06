@@ -5,7 +5,7 @@ document.querySelectorAll("a.book").forEach(function(a){a.href=FORM_URL;});
 // ---- CLIENT REVIEWS ----
 // To add a review, copy one line inside REVIEWS, fill it in, and redeploy.
 // Example: { name: "Client name", event: "Wedding", rating: 5, text: "What the client said." },
-var REVIEWS = [
+var REVIEWS = [ name: "Daniel & Wife.", event: "Wedding", rating: 5, text: I highly recommend LIVE LENS to individuals, organisations, and businesses looking for reliable, creative, and professional media coverage."
 ];
 
 // Link to a Google Form (or any page) where clients can submit reviews.
